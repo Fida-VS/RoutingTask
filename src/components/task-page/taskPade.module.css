@@ -1,0 +1,52 @@
+.taskContainer{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: stretch;
+	align-content: space-between;
+	justify-content: space-between;
+	width: 700px;
+	margin-left: 23%;
+	margin-top: 50px;
+	padding-top: 20px;
+	word-spacing: 10px;
+	letter-spacing: 3px;
+	list-style-type: none;
+}
+
+.taskText{
+	flex-basis: 80%;
+	margin-bottom: 40px;
+}
+
+.taskText p{
+	display: inline-block;
+}
+
+button{
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+ .changeTodo, .deleteTodo{
+	margin-right: 20px;
+}
+
+ .buttonDiv{
+	margin-top: -15px;
+}
+
+.saveButton{
+	margin-top: 20px;
+	width: 100px;
+}
+
+.updateInput{
+	width: 600px;
+	height: 150px;
+	border-radius: 10px;
+}
+
+

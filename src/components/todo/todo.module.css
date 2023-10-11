@@ -1,0 +1,11 @@
+.todo{
+	margin-bottom: 20px;
+}
+
+.todo:before{
+	color: black;
+	content: '◼';
+	padding-right: 10px;
+}
+
+
